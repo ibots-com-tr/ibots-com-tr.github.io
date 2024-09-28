@@ -1,19 +1,21 @@
 import PropTypes from "prop-types";
-import React from 'react';
-import {Link} from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Logo = ({image, image2}) => {
-    return(
-        <div className="logo">
-            <Link to={process.env.PUBLIC_URL + "/"}>
-                <img className="logo-light" src={process.env.PUBLIC_URL + image} alt="Corporate Logo" />
-                <img className="logo-dark" src={process.env.PUBLIC_URL + image2} alt="Corporate Logo" />
-            </Link>
-        </div>
-    )
-}
+const Logo = ({ image, image2 }) => {
+  return (
+    <img
+      src={process.env.PUBLIC_URL + image}
+      alt="ibots Logo"
+      style={{
+        objectFit: "cover",
+        width: "180px",
+      }}
+    />
+  );
+};
 Logo.propTypes = {
-    image: PropTypes.string
+  image: PropTypes.string,
 };
 
 export default Logo;

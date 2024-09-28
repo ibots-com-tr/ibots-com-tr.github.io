@@ -5,9 +5,9 @@ const SEO = ({ title }) => {
   return (
     <>
       <meta charSet="utf-8" />
-      <title>{title} | ibots</title>
+      <title>{/*title*/}ibots</title>
       <meta name="robots" content="noindex, follow" />
-      <meta name="description" content="ibots robotics" />
+      <meta name="description" content="ibots | Intelligent Robots" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
