@@ -34,9 +34,9 @@ const LandingPage = () => {
                   <h1 className="title display-one">
                     Yeni nesil yapay zeka destekli endüstriyel robotlar
                   </h1>
-                  <p className="description">
-                    Programlanabilir yapay zeka arayüzü <br />
-                    Değişken ortamlara adapte olabilme
+                  <p className="description" style={{ textAlign: "left" }}>
+                    - Programlanabilir yapay zeka arayüzü <br />- Değişken
+                    ortamlara adapte olabilme
                   </p>
                 </div>
               </div>

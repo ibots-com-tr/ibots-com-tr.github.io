@@ -9,7 +9,7 @@ const Logo = ({ image, image2 }) => {
       alt="ibots Logo"
       style={{
         objectFit: "cover",
-        width: "180px",
+        width: "250px",
       }}
     />
   );
