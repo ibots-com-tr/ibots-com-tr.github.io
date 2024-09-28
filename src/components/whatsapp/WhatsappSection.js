@@ -20,12 +20,13 @@ const WhatsappSection = () => {
             </div>
           </div>
           <div className="col-lg-4 col-12 content text-center">
-            <a href="https://wa.me/5549088546" target="_blank">
+            <a href="https://wa.me/5389642111" target="_blank">
               <img
                 src={`${process.env.PUBLIC_URL}/images/ibots/whatsapp.svg`}
                 alt="whatsapp"
-                width={200}
-                height={200}
+                width={150}
+                height={150}
+                className="m-4"
               />
             </a>
           </div>
