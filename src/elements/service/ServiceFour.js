@@ -5,25 +5,26 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
   {
     icon: "1",
-    title: "5-25 kg </br> 4-6 axis </br> Robot kollar",
-    description: "Kaynak makinesi </br> Robotik boyama",
+    title: "5-25 kg </br> 6 axis </br> Robot kollar",
+    description:
+      "Endüstrinin her alanında basit insan işlerini yapabilen, kendi kararlarını verebilen robot kollar",
   },
   {
     icon: "2",
     title: "Yapay zeka modülü ve sensörler",
-    description: "Çevresini ve objeleri tanıyan kendi yolunu bulabilen",
+    description:
+      "Çevresini tanıyabilen, sensörlerle kendi yolunu bulabilen teknoloji",
   },
   {
     icon: "3",
-    title: "Her sektör için tutucular (gripper)",
-    description:
-      "Endüstriyel bağlantı elemanları,</br> her boyutta ve özel üretim tutucular",
+    title: "Her amaca uygun tutucular ve özel tasarım tutucular",
+    description: "Endüstrilere özel tutucular ve işinize özel tasarımlar",
   },
   {
     icon: "4",
-    title: "Yazılım",
+    title: "Yazılım ve Entegrasyon",
     description:
-      "Yeni nesil otomasyon sistemleri, </br> Mevcut sisteminize entegrasyon",
+      "Mevcut üretim hattınıza kolayca entegre olabilme, </br> Yeni nesil akıllı otomasyon sistemleri",
   },
 ];
 

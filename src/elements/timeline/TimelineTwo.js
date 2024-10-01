@@ -4,23 +4,25 @@ import ScrollAnimation from "react-animate-on-scroll";
 const TimelineData = [
   {
     id: "1",
-    title: "Tedarik",
-    description: "Tedarik zinciri, know how.",
+    title: "AR-GE",
+    description: "Laboratuvar ve teknik ekibin kurulması.",
   },
   {
     id: "2",
-    title: "AR-GE",
-    description: "AR-GE laboratuvarı, teknik AR-GE.",
+    title: "Tedarik",
+    description:
+      "Tedarik zincirinin oluşturulması, teknoloji partnerleri anlaşmaları.",
   },
   {
     id: "3",
     title: "Üretim",
-    description: "Üretim hattının modellenmesi, otomasyon.",
+    description: "Üretim hattının modellenmesi ve otomasyon.",
   },
   {
     id: "4",
-    title: "İlk Kullanıcılar",
-    description: "İlk test kullanıcıları için başvuruların açılması, kurulum.",
+    title: "Entegrasyon",
+    description:
+      "2025 ilk çeyrekte kullanıcıların üretim hatlarına entegrasyon.",
   },
 ];
 
